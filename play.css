@@ -1,0 +1,117 @@
+body {
+  background: #333;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: white;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+canvas {
+  color: white;
+  border: 2px solid white;
+  /* Add this line to set the border */
+  padding: 15px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p {
+  font-size: 1.6em;
+}
+
+#alphabet {
+  display: flex;
+  /* Use flexbox to arrange the keys */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Allow the keys to wrap to the next line if needed */
+  list-style: none;
+  margin: 10px auto;
+  padding: 0;
+  max-width: 800px;
+  gap: 1px;
+  /* Adjust the gap between keys */
+}
+
+#alphabet li {
+  width: 40px;
+  /* Adjust the key width as needed */
+  height: 40px;
+  /* Adjust the key height as needed */
+  margin: 5px;
+  /* Adjust the margin as desired */
+  background: #eee;
+  /* Add a background color to the keys */
+  color: #333;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  /* Adjust the font size as needed */
+  text-align: center;
+  cursor: pointer;
+  gap: 1px;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  cursor: default;
+
+}
+
+#mylives {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: solid 1px white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}

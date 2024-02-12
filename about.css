@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    border: 19px solid #333;
+    padding: 0;
+    background-color: #f8f8f8; /* Adding a background color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    border: 19px solid #333;
+    border-color:#333; /* Adding colored border */
+    background-color: #f8f8f856;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px; /* Increasing font size */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5; /* Adding line height for better readability */
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Adding some hover effects */
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
